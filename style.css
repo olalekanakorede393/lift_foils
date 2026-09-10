@@ -10,7 +10,7 @@ body{
 }
 
 .announcement{
-    height: 55px;
+    height: 20px;
     background: #16bb;
     display: flex;
     align-items: center;
@@ -21,12 +21,14 @@ body{
 }
 
 .navbar{
-    height: 105px;
+    height: 55px;
     background: white;
     display: flex;
     align-items: center;
-    padding: 0 7%;
+    padding: 7px 40px;
+    top: 0;
     gap: 50px;
+    position: sticky;
 }
 
 .logo{
@@ -63,8 +65,8 @@ gap: 20px;
 }
 
 .search{
-    font-size: 28px;
-    color: blue;
+    font-size: 18px;
+    color: rgb(0, 255, 4);
 }
 
 .cart{
@@ -122,17 +124,12 @@ h1{
     margin-bottom: 25px;
 }
 
-.buttons{
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-}
 
 .btn{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 52px;
+    height: 30px;
     padding: 0 28px;
     border-radius: 10px;
     text-decoration: none;
@@ -156,4 +153,42 @@ h1{
     font-size: 12px;
     margin-top: 15px;
     color: white;
+}
+
+.features {
+    background: #111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 7%;
+    gap: 40px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+}
+
+.feature i {
+    font-size: 25px;
+}
+
+.feature h3 {
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+
+.feature p {
+    font-size: 13px;
+    margin: 0 0 5px;
+    color: #aaa;
+}
+
+.feature a {
+    color: #18d5c0;
+    font-size: 13px;
+    text-decoration: none;
 }
